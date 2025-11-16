@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>School Shop</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f6f6f6;
+}
+header {
+background: #2d2d8f;
+color: white;
+padding: 20px;
+text-align: center;
+font-size: 28px;
+}
+nav {
+background: #1e1e63;
+padding: 10px;
+text-align: center;
+}
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none;
+font-size: 18px;
+}
+.container {
+max-width: 900px;
+margin: auto;
+padding: 20px;
+}
+.product-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+.product {
+background: white;
+border-radius: 8px;
+padding: 15px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+text-align: center;
+}
+.product img {
+width: 100%;
+height: 160px;
+object-fit: cover;
+border-radius: 5px;
+}
+.product h3 {
+margin: 10px 0 5px;
+}
+.order-btn {
+display: inline-block;
